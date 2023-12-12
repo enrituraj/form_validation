@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form_container">
+        <div class="form_box">
+            <div class="form_title">
+                <h2>Register</h2>
+                <p>Create an account for free.</p>
+            </div>
+            <div class="form_card">
+                <form action="/" method="post" id="registrationForm">
+                                       
+                    <div class="form_group">
+                        <label for="fullname">Fullname</label>
+                        <span class="msg"></span>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter Fullname">
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email</label>
+                        <span class="msg"></span>
+                        <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                    </div>
+                    <div class="form_group">
+                        <label for="mobile_no">Mobile No</label>
+                        <span class="msg"></span>
+                        <input type="number" name="mobile_no" id="mobile_no" placeholder="Enter Mobile Number">
+                    </div>
+                    <div class="form_group">
+                        <label for="password">Password</label>
+                        <span class="msg"></span>
+                        <input type="password" name="password" id="password" placeholder="Enter Strong Password">
+                    </div>
+                    <div class="form_group">
+                        <label for="agree" class="checkbox">
+                        <input type="checkbox" name="agree" id="agree">
+                        <span>
+                            i agree with the term & condition.
+                        </span>
+                        </label>
+                    </div>
+                    <div class="form_group">
+                        <button class="btn" type="submit" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./validation.js"></script>
+</body>
+</html>
